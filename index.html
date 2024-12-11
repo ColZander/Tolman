@@ -8,22 +8,19 @@
         body, html {
             margin: 0;
             padding: 0;
+            width: 100%;
             height: 100%;
+            overflow: auto; /* Povolit scrollování */
         }
         iframe {
             display: block;
-            width: 100%;
-            height: 100%;
+            width: 100vw; /* Zabere celou šířku stránky */
+            height: 150vh; /* Výška větší než stránka pro demonstraci */
             border: none;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://widgets.commoninja.com/iframe/e3b0ea5c-3324-4a93-89c8-c4574300074c" 
-            width="100%" 
-            height="100%" 
-            frameborder="0" 
-            scrolling="no">
-    </iframe>
+    <iframe src="https://widgets.commoninja.com/iframe/e3b0ea5c-3324-4a93-89c8-c4574300074c"></iframe>
 </body>
 </html>
